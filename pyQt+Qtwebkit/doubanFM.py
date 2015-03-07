@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 # -*- coding:utf-8 -*-
 from PyQt4.QtWebKit import *
 from PyQt4.QtCore import *
@@ -12,7 +12,7 @@ class Window(QMainWindow):
          self.setGeometry(450,350,420,180)
          #self.resize(420,180)
          self.setWindowFlags(Qt.WindowCloseButtonHint)
-         icon = QIcon("/home/x/Music/FM/douban.png")
+         icon = QIcon("./douban.png")
          self.setWindowIcon(icon)
          self.isTopLevel()
          self.trayIcon = QSystemTrayIcon(self)
