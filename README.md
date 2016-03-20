@@ -1,5 +1,6 @@
 DoubanFM
 ==================================
+![sample](./imag/1.png)
 
 喜欢听豆瓣FM，苦于linux没找到豆瓣FM的客户端，又懒得每次打开浏览器网页听豆瓣FM。所以上网找了一下，发现可以使用webkit将豆瓣FM嵌到程序中。
 
@@ -9,11 +10,15 @@ DoubanFM
 ####         E-mail:shawpan@yeah.net
 
 ===================================
+###        安装：
+*   windows系统：直接运行./pyQt+Qtwebkit/dist文件夹中的doubanFM.exe。或者使用py2exe编译源文件，配置文件为./pyQt+Qtwebkit/setup.py
+*  linux系统，可以安装gtk版本或者qt版本，个人推荐qt版本，支持最小化到托盘。可以使用脚本一键安装到～/Music文件夹，并建立桌面快捷方式。
 
 ###        库依赖：
 *   pyQt4
 *   gtk
 *   webkit
+
 
 
 ###        原理：
