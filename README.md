@@ -1,4 +1,4 @@
-DoubanFM
+DoubanFM(已失效)，多米和酷我可用
 ==================================
 ![sample](./imag/1.png)
 
@@ -23,8 +23,8 @@ DoubanFM
 
 ###        原理：
 核心就是利用豆瓣FM的一个flash网页：
-[豆瓣](http://douban.fm/radio) <br>
-其实像多米、酷我、人人电台也有类似的flash网页 [多米](http://app.duomiyy.com/songplayer/v2/app/l100018/DuomiWebPlayer.swf) 、[酷我](http://player.kuwo.cn/webmusic/webdiantai/kuwoBaiduPlay.jsp) 、[人人电台](http://music.renren.com/fm/360webapp) <br>
+[豆瓣（失效）](http://douban.fm/radio) <br>
+其实像多米、酷我、人人电台也有类似的flash网页 [多米](http://app.duomiyy.com/songplayer/v2/app/l100018/DuomiWebPlayer.swf) 、[酷我](http://player.kuwo.cn/webmusic/webdiantai/kuwoBaiduPlay.jsp) 、[人人电台（失效）](http://music.renren.com/fm/360webapp) <br>
 接下来就是找个容器把它装下来就行。这里我分别使用了gtk和pyQt的界面，都是用python写的。
 
 ###        GTK + webkit
