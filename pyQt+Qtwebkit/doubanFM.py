@@ -26,7 +26,7 @@ class Window(QMainWindow):
          self.web = QWebView(self)
          webSettings = self.web.settings()
          webSettings.setAttribute(QWebSettings.PluginsEnabled,True) #使Pyqt4.QtWebkit支持flash
-         self.web.load(QUrl("http://douban.fm/radio"))
+         self.web.load(QUrl("http://app.duomiyy.com/songplayer/v2/app/l100018/DuomiWebPlayer.swf"))
 
          self.web.resize(420,180)
          self.web.show()         
